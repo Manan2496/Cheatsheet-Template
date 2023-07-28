@@ -1,0 +1,43 @@
+* {
+  margin: -6px;
+  padding: 9px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d2d;
+  color: white;
+  height: 70px;
+  font-size: 1.5rem;
+
+}
+
+.container {
+  margin: auto;
+  width: 40vw;
+  padding: 32px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.content {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.picture{
+  padding: 0px 15px;
+}
+
+.picture img {
+  width: 70px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 8px !important;
+    padding: 3px 14px !important;
+}
